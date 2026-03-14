@@ -1,0 +1,98 @@
+site_name: 日本现代史 / A Modern History of Japan
+site_description: Bilingual web edition of A Modern History of Japan
+site_url: https://hhubb22.github.io/a-modern-history-of-japan-site/
+docs_dir: docs
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: brown
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+plugins:
+  - search
+extra_css:
+  - assets/stylesheets/extra.css
+extra:
+  generator: false
+nav:
+  - 首页: index.md
+  - 中文:
+      - zh/index.md
+      - 版权页与前言: zh/00-front-matter.md
+      - 导论: zh/01-introduction-enduring-imprints-of-the-longer-past.md
+      - 第一编 德川幕府的危机:
+          - 第一章 德川政体: zh/02-the-tokugawa-polity.md
+          - 第二章 社会与经济变革: zh/03-social-and-economic-transformations.md
+          - 第三章 德川晚期的思想世界: zh/04-the-intellectual-world-of-late-tokugawa.md
+          - 第四章 德川幕府的覆灭: zh/05-the-overthrow-of-the-tokugawa.md
+      - 第二编 近代革命，1868—1905:
+          - 第五章 武士革命: zh/06-the-samurai-revolution.md
+          - 第六章 参与与抗争: zh/07-participation-and-protest.md
+          - 第七章 社会、经济与文化的转型: zh/08-social-economic-and-cultural-transformations.md
+          - 第八章 帝国与国内秩序: zh/09-empire-and-domestic-order.md
+      - 第三编 帝国日本：从崛起到灰烬:
+          - 第九章 经济与社会: zh/10-economy-and-society.md
+          - 第十章 两次世界大战之间的民主与帝国: zh/11-democracy-and-empire-between-the-world-wars.md
+          - 第十一章 萧条危机与应对: zh/12-the-depression-crisis-and-responses.md
+          - 第十二章 战时日本: zh/13-japan-in-wartime.md
+          - 第十三章 占领下的日本：新的开端与持久的结构: zh/14-occupied-japan-new-departures-and-durable-structures.md
+      - 第四编 战后与当代日本：1952—2000:
+          - 第十四章 经济与社会的转型: zh/15-economic-and-social-transformations.md
+          - 第十五章 高速增长时代的政治斗争与妥协: zh/16-political-struggles-and-settlements-of-the-high-growth-era.md
+          - 第十六章 两极世界中的全球强国：1980年代的日本: zh/17-global-power-in-a-polarized-world-japan-in-the-1980s.md
+          - 第十七章 超越战后时代: zh/18-beyond-the-postwar-era.md
+  - English:
+      - en/index.md
+      - Front Matter and Preface: en/00-front-matter.md
+      - Introduction: en/01-introduction-enduring-imprints-of-the-longer-past.md
+      - Part I. Crisis of the Tokugawa Regime:
+          - 1. The Tokugawa Polity: en/02-the-tokugawa-polity.md
+          - 2. Social and Economic Transformations: en/03-social-and-economic-transformations.md
+          - 3. The Intellectual World of Late Tokugawa: en/04-the-intellectual-world-of-late-tokugawa.md
+          - 4. The Overthrow of the Tokugawa: en/05-the-overthrow-of-the-tokugawa.md
+      - Part II. Modern Revolution, 1868-1905:
+          - 5. The Samurai Revolution: en/06-the-samurai-revolution.md
+          - 6. Participation and Protest: en/07-participation-and-protest.md
+          - 7. Social, Economic, and Cultural Transformations: en/08-social-economic-and-cultural-transformations.md
+          - 8. Empire and Domestic Order: en/09-empire-and-domestic-order.md
+      - Part III. Imperial Japan from Ascendance to Ashes:
+          - 9. Economy and Society: en/10-economy-and-society.md
+          - 10. Democracy and Empire between the World Wars: en/11-democracy-and-empire-between-the-world-wars.md
+          - 11. The Depression Crisis and Responses: en/12-the-depression-crisis-and-responses.md
+          - 12. Japan in Wartime: en/13-japan-in-wartime.md
+          - "13. Occupied Japan: New Departures and Durable Structures": en/14-occupied-japan-new-departures-and-durable-structures.md
+      - Part IV. Postwar and Contemporary Japan, 1952-2000:
+          - 14. Economic and Social Transformations: en/15-economic-and-social-transformations.md
+          - 15. Political Struggles and Settlements of the High-Growth Era: en/16-political-struggles-and-settlements-of-the-high-growth-era.md
+          - "16. Global Power in a Polarized World: Japan in the 1980s": en/17-global-power-in-a-polarized-world-japan-in-the-1980s.md
+          - 17. Beyond the Postwar Era: en/18-beyond-the-postwar-era.md
+      - Appendix A. Prime Ministers of Japan, 1885-2001: en/appendix-a-prime-ministers-of-japan-1885-2001.md
+      - Appendix B. Vote Totals and Seats by Party, 1945-2000 Lower House Elections: en/appendix-b-vote-totals-and-seats-by-party-1945-2000-lower-house-elections.md
+      - Select Bibliography: en/select-bibliography.md
+      - Book Index: en/book-index.md

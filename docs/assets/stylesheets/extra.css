@@ -1,0 +1,78 @@
+:root {
+  --md-text-font: "Source Han Serif SC", "Noto Serif SC", "Songti SC", "STSong", "Georgia", serif;
+  --md-code-font: "SFMono-Regular", "SF Mono", "Menlo", "Consolas", monospace;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #f7f3ea;
+  --md-default-fg-color: #2d241c;
+  --md-primary-fg-color: #5b3c2f;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #7b5a45;
+}
+
+.md-grid {
+  max-width: 92rem;
+}
+
+.md-sidebar--primary {
+  width: 16rem;
+}
+
+.md-content__inner {
+  max-width: 52rem;
+  margin-inline: auto;
+}
+
+.md-typeset {
+  font-size: 0.9rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: "PingFang SC", "Noto Sans CJK SC", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset blockquote {
+  line-height: 1.9;
+}
+
+.md-typeset img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.4rem auto;
+  border-radius: 0.35rem;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+.md-typeset blockquote {
+  padding-left: 0.9rem;
+  border-left: 0.2rem solid rgba(91, 60, 47, 0.35);
+  color: inherit;
+}
+
+.md-header__title,
+.md-nav__title,
+.md-nav__link,
+.md-tabs__link {
+  font-family: "PingFang SC", "Noto Sans CJK SC", "Helvetica Neue", Arial, sans-serif;
+}
+
+@media screen and (max-width: 76.1875em) {
+  .md-content__inner {
+    max-width: 100%;
+  }
+}

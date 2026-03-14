@@ -1,0 +1,12 @@
+[project]
+name = "a-modern-history-of-japan-site"
+version = "0.1.0"
+description = "MkDocs web edition for A Modern History of Japan"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+  "mkdocs>=1.6,<2.0",
+  "mkdocs-material>=9.6,<10.0",
+]
+
+[tool.uv]
+package = false
